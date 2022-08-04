@@ -45,5 +45,40 @@ a {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: flex-start;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 500px;
+  }
+  .flexbox {
+    flex-direction: column;
+  }
+  .card {
+    width: 90%
+  }
+}
+
+@media (max-width: 550px) {
+  .container {
+    width: 400px;
+  }
+  .flexbox {
+    flex-direction: column;
+  }
+  .card {
+    width: 90%
+  }
 }
