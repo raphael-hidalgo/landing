@@ -83,3 +83,17 @@ a {
     width: 90%
   }
 }
+
+@media (max-width: 400px) {
+  .container {
+    width: 290px;
+  }
+
+  .flexbox {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90%
+  }
+}
