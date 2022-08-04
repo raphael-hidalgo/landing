@@ -1,0 +1,12 @@
+.btn-contact {
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  background-color: rgb(50, 50, 120);
+  margin: 20px 0px ;
+}
+
+.btn-contact:hover {
+  background-color: rgb(70, 50, 120);
+}
